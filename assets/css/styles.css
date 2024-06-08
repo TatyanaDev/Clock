@@ -1,0 +1,34 @@
+@import "./font.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "RussoOne";
+  background: #000000;
+  color: #36ff2f;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.clockCase,
+.buttonsCase {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.clockCase {
+  min-height: 100vh;
+}
+
+#start,
+#stop {
+  background-color: #36ff2f;
+  font-family: inherit;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 16px;
+}

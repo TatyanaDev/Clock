@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "RussoOne";
+  font-family: "Russo One";
   background: #000000;
   color: #36ff2f;
   font-size: 50px;
@@ -14,7 +14,7 @@ body {
 }
 
 .clockCase,
-.buttonsCase {
+.buttonCase {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -27,7 +27,7 @@ body {
 #start,
 #stop {
   background-color: #36ff2f;
-  font-family: inherit;
+  font-family: "Russo One";
   padding: 10px 20px;
   color: #000000;
   font-size: 16px;
